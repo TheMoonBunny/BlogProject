@@ -8,10 +8,9 @@
           <li><a href="/howto">How to</a></li>
           <li><a href="#">Placeholder</a></li>
           <li><a href="/about">About</a></li>
-       
           {{-- search function --}}
           <div class="search-container">
-            <form action="/howto">
+            <form action="#">  {{--Find a way to make search function work--}}
               <input type="text" placeholder="Search..." name="search">
               <button type="submit"><i class="fa fa-search"></i></button>
             </form>

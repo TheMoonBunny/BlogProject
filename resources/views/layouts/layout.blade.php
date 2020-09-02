@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <script src="https://use.fontawesome.com/d1341f9b7a.js"></script>
     <link rel="stylesheet" type="text/css" href="{{asset('css/style.css')}}">
-    <title>Document</title>
+<title>ComputerHowTo</title>
 </head>
 <body>
    @include('layouts.navbar')
