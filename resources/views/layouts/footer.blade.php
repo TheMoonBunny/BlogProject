@@ -1,7 +1,7 @@
 <footer class="desktop">
     <div class="footer">
         <div class="footer-column">
-           <a class="footer_fixer" href=html/contact.html>Contact me</a>        
+           <a class="footer_fixer" href=html/contact.html>Contact us</a>        
              <ul>
                 <li> <a class="footer_fixer" href="#">Terms &amp; Conditions</a></li>
                 <li> <a class="footer_fixer" href="#">Privacy Policy</a></li>       
