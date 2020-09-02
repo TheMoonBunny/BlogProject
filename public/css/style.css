@@ -1,0 +1,145 @@
+* {
+    font-size: 16px;
+    font-family: 'Josefin Slab', serif, arial;
+    margin:0;
+    padding:0;
+}
+
+body {
+    background:#606060;
+}
+.wrapper{
+    flex:1;
+    text-align: justify;
+    text-align-last: left;
+    background-color: #f8f3e6;
+    color:black;
+    padding: 20px 10px;
+    margin: 0px 300px 75px 300px;
+    border-radius: 10px;
+    padding-bottom: 50px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* header/navbar */
+.navbar {
+    /* background: gray; /*image is PNG so gray background don't forget incase of better image*/
+     /*background-image:url("../images/plants-border-png-1.png");*/
+     background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.8) 100%);
+    text-align: center;
+    border-radius:10px; /*change when you got better border idea, image*/
+    position: relative;
+    padding: 20px 10px;
+    margin: 0px 300px 0px 300px;
+
+
+ }
+ .navbar li {
+    
+    list-style-type: none;
+    text-decoration: none;
+    display: inline-block;
+    margin: 0px 75px;
+    
+    background:black;
+ 
+}
+
+ .navbar li a {
+     
+     text-decoration: none;
+     color:white;
+     margin-top:12px; /*change for text margin top in header*/
+     display:block;
+ }
+ .navbar li a:hover {
+     
+    color:grey;
+
+     
+ }
+
+ .navbar .search-container button {
+    padding: right;
+    background: #ddd;
+  }
+  .navbar .search-container {
+    float: right;
+    
+  }
+  
+  .navbar input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .navbar .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+/* footer */
+footer{
+    background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.8) 100%);
+    color:white;
+    text-align:center;
+    width: 100%;
+    height: 7rem;            /* Footer height */
+    overflow:hidden;
+    position:absolute;
+    min-height: 120px;   
+
+}
+
+footer.desktop li{
+    display: none;
+    
+}
+.footer_column {
+    display: inline-block;
+
+}
+.footer_fixer{
+    text-decoration: none;
+    color:white;
+    
+}
+/*font-awesome-bootstrap fix for footer*/
+.s-m{
+    margin: auto;
+    justify-content: space-around;
+    display: flex;
+    max-width: 175px; /*Change for the "inner-margin"*/
+    font-size: 17.5px; /*change for smaller font icon as main logo-picture in the font awesome*/
+  }
+  .s-m a{
+    text-decoration: none;
+    color: #f1f1f1;
+    width: 45px;
+    height: 45px;
+    text-align: center;
+    transition: 0.4s all;
+    line-height: 45px;
+    cursor: pointer;
+    background: #314652;
+    border-radius: 50%;
+    
+  }
