@@ -10,23 +10,57 @@ body {
 }
 .wrapper{
     flex:1;
-    text-align: justify;
-    text-align-last: left;
-    background-color: #f8f3e6;
-    color:black;
-    padding: 20px 10px;
-    margin: 0px 300px 75px 300px;
-    border-radius: 10px;
-    padding-bottom: 50px;
+
+}
+.wrapper-text{
+  text-align: justify;
+  text-align-last: left;
+  background-color: #f8f3e6;
+  color:black;
+  padding: 20px 10px;
+  margin: 0px 300px 75px 300px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+}
+  .hot-topic{
+  display:grid;
+  }
+
+.box1 {
+  padding: 20px 10px;
+  margin: 0px 100px 75px 100px;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  background:silver;
+}
+.box2 {
+
+  width:100px;
+  height: 50px;
+  display: inline-block;
+  background:silver;
 }
 
+/* playing with preview and iframes */
+.blog-preview {
+  
+    overflow:hidden;
+}
+.wrapper-preview {
+  /* display: flex;
+  flex-direction: column; */ 
+  display: grid;
+    row-gap: 20px;
+    column-gap: 20px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
 
+.wrapper-box a{
 
+  /* text-decoration: none; */
+  color:blue;
 
-
-
-
-
+}
 
 
 
@@ -97,31 +131,52 @@ body {
     cursor: pointer;
   }
 /* footer */
-footer{
+.footer-bg{
+  background-color: rgb(14, 14, 14);
+ margin: 0px 300px 
+}
+.footer{
     background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.8) 100%);
     color:white;
     text-align:center;
-    width: 100%;
-    height: 7rem;            /* Footer height */
+    width: 70%;
+    height: auto;            /* Footer height */
     overflow:hidden;
     position:absolute;
     min-height: 120px;   
-
-}
-
-footer.desktop li{
-    display: none;
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0px;
+    border-radius:10px;
     
-}
-.footer_column {
-    display: inline-block;
+    
 
 }
-.footer_fixer{
-    text-decoration: none;
-    color:white;
-    
+.footer-rows {
+  padding:0px 0px 0px 40px; /*the last 20px is to adjust footer*/
+  display: flex;
+  justify-content: space-between;
 }
+.footer-rows li{
+list-style-type: none;
+}
+.footer-rows li a{
+ color:whitesmoke
+  text-decoration:none;
+}
+.footer-rows2{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding:0px 40px 0px 0px;
+}
+
+.footer-info{
+  display: flex;
+  flex-direction: column;
+  padding-right: 38px;
+}
+
 /*font-awesome-bootstrap fix for footer*/
 .s-m{
     margin: auto;
@@ -129,6 +184,7 @@ footer.desktop li{
     display: flex;
     max-width: 175px; /*Change for the "inner-margin"*/
     font-size: 17.5px; /*change for smaller font icon as main logo-picture in the font awesome*/
+    flex-direction: column;
   }
   .s-m a{
     text-decoration: none;

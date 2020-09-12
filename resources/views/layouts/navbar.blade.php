@@ -5,9 +5,10 @@
       
           <li><a href="/">Home</a></li>
       
-          <li><a href="/howto">How to</a></li>
-          <li><a href="#">Placeholder</a></li>
-          <li><a href="/about">About</a></li>
+          <li><a href="/howto">Articles</a></li>
+         
+          <li><a href="/about">About me</a></li>
+          <li><a href="#">Contact</a></li>
           {{-- search function --}}
           <div class="search-container">
             <form action="#">  {{--Find a way to make search function work--}}

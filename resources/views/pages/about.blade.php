@@ -2,22 +2,26 @@
 @section ('content')
 
 <div class="wrapper">
-    <h2>How did ComputerHowTo come to be?</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Saepe totam veritatis possimus voluptatum maiores earum, aperiam qui aliquam accusamus dolore quod odit illum et, nulla unde ipsam id rerum. Exercitationem?</p>
+    <div class="wrapper-text">
+    <h2>How did HowToComputerLife come to be?</h2>
+    <p>A curious web developer wanted to become better at building websites and decided to take on a project to make a blog with information regarding to what he has learned.</p>
     <br>
     <br>
-    <h2>What are our values?</h2>
-    Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit, illo itaque perspiciatis quibusdam eaque necessitatibus cum nesciunt quasi expedita, sint at odit repellendus neque aliquam maiores reiciendis suscipit id eveniet?
-    Quis, repellendus magnam! Sapiente, doloremque! Natus laborum maxime corporis molestias qui reprehenderit vel, iure architecto ullam iusto dolorum? Similique animi quas delectus quasi mollitia itaque non! Fuga tempore officiis minus.
-    Vel ipsam illum quam sit fuga sunt praesentium itaque molestias assumenda. Vitae, maiores ducimus numquam quidem quaerat quae quasi ad possimus culpa sed, autem quis ullam nam asperiores, deleniti magni!
-    Facere voluptatibus ut aliquid odio aspernatur et iure velit quod, repellendus sint quasi commodi laudantium omnis perferendis vel exercitationem minima qui animi natus tempore aut ex? Fugit fugiat impedit veritatis.
-    Explicabo molestiae inventore amet eaque ipsa accusantium consectetur impedit, eos soluta dolorum est eligendi quod provident repudiandae consequuntur perferendis ea esse repellat culpa illum reiciendis, libero numquam omnis accusamus. Velit!
+    <h2>What are my values?</h2>
+    <p>
+        <ul>
+            <li>Trial and error</li>
+            <li>You need to invest in your skill if you want to achieve something with it</li>
+            <li>Discipline in order to work on your skillset everyday</li>
+            <li>Enjoy it, because at the end of the day if you don't enjoy it you won't work on it or you will burn out.</li>
+        </ul>
+    </p>
     <br>
     <br>
-    <h2>Contact us</h2>
-    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente esse nam alias consequatur velit, id, corrupti saepe, doloremque voluptate eius impedit molestias repellat repellendus perferendis neque culpa ullam et magnam.</p>
-
+    <h2>Contact me</h2>
+        <p>email:placeholder</p>
+        <p>socials:</p>
+    </div>
 </div>
-
 
 @endsection

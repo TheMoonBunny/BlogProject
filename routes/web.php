@@ -17,3 +17,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', 'PAGESCONTROLLER@Home');
 Route::get('/about', 'PAGESCONTROLLER@about');
 Route::get('/howto', 'PAGESCONTROLLER@howto');
+Route::get('/myrss', 'PAGESCONTROLLER@myrss');
+//Route::feeds('/voorbeeld', 'PAGESCONTROLLER@voorbeeld');
