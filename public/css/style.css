@@ -133,13 +133,13 @@ body {
 /* footer */
 .footer-bg{
   background-color: rgb(14, 14, 14);
- margin: 0px 300px 
+
 }
 .footer{
     background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.8) 100%);
     color:white;
     text-align:center;
-    width: 70%;
+    width: 100%;
     height: auto;            /* Footer height */
     overflow:hidden;
     position:absolute;
@@ -147,7 +147,6 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 20px 0px;
-    border-radius:10px;
     
     
 

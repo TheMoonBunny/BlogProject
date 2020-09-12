@@ -3,8 +3,7 @@
 
 <div class="wrapper">
     <div class='hot-topic'>
-        <div class= "box1"> </div>
-        <div class= "box2"> </div>
+
     </div>
     <div class="wrapper-text">
         <h2>Hello welcome to my blog,</h2>
