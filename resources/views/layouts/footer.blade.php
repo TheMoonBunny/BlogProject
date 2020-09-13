@@ -3,7 +3,7 @@
   <div class="footer">
     <div class="footer-rows">
       <div class="footer-info">
-        <span>Help</span>
+        <h2>Help</h2>
         <ul>
           <li><a href="#">FAQ</a></li>
           <li><a href="#">Rules</a></li>
@@ -12,25 +12,26 @@
         </ul>
       </div>
       <div class="footer-info">
-       
-        <div class="s-m">
+        <h2>Social Media</h2>
+        <ul>
+      
+          <li><a href="https://www.youtube.com/channel/UC6JrOKgoAPp2OMb74-ZcwZg?">Youtube</a></li>
+      
+          <li><a href="https://www.instagram.com/alex.atacho/">Instagram</a></li>
+         
+          <li><a href="https://github.com/TheMoonBunny?tab=repositories">Github</a></li>
+          <li><a href="/contact"></a></li>
+ 
+         
 
-          <span>Socials</span> 
-          <a class="fa fa-instagram" href="https://www.instagram.com/alex.atacho/"></a>
-          <a class="fa fa-youtube" href="https://www.youtube.com/channel/UC6JrOKgoAPp2OMb74-ZcwZg?"></a>
-          <a class="fa fa-github" href="https://github.com/TheMoonBunny?tab=repositories"></a>   
-          <a class="fa fa-rss" href="/voorbeeld"></a>   
-      
-        </a>
-      
-        </div>
+        </ul>
       </div>
       <div class="footer-info">
-        <span>Contact</span>
+     
+        <h2>Contact</h2>
         <ul>
-        <a href=html/contact.html>Contact us</a>        
+        <a href="/contact">Contact us</a>        
            <li> <a href="#">Terms &amp; Conditions</a></li>
-           <br>
            <li> <a href="#">Privacy Policy</a></li>   
            <br>
 

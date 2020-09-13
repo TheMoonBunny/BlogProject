@@ -1,10 +1,37 @@
 @extends('layouts.layout')
 @section ('content')
 
+<div class='hot-topic'>
+       
+    <div class= "wrapper">
+        <div class="wrapper-text">
+            <h1><p>Hot topic</p></h1>
+            <div class="wrapper-preview">
+                <div class="wrapper-box">
+            <iframe class="blog-preview" img src="/img/preview1.jpg" rel="/about" src="/about" scrolling="no" height="200" width="300" title="Iframe Example"></iframe>
+            <p><a href="/about" target="myFrame" >Read more. </a></p>
+                </div>
+                <div class="wrapper-box">
+            <iframe class="blog-preview" img src="/img/ifkedup.png" rel="/about" src="/about" scrolling="no" height="200" width="300" title="Iframe Example"></iframe>
+            <p><a href="/about" target="myFrame">Read more.</a></p>
+                </div>
+                <div class="wrapper-box">
+            <iframe class="blog-preview" rel="/about" src="/about" scrolling="no" height="200" width="300" title="Iframe Example"></iframe>
+            <p><a href="/about" target="myFrame">Read more.</a></p>
+                </div>
+                <div class="wrapper-box">
+            <iframe class="blog-preview" rel="/about" src="/about" scrolling="no" height="200" width="300" title="Iframe Example"></iframe>
+            <p><a href="/about" target="myFrame">Read more.</a></p>
+                </div>
+           
+            </div>
+        
+        </div>
+        
+        </div>
+</div>
 <div class="wrapper">
-    <div class='hot-topic'>
-
-    </div>
+ 
     <div class="wrapper-text">
         <h2>Hello welcome to my blog,</h2>
         <p>HowToComputerLife</p>

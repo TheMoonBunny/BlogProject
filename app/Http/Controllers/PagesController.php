@@ -17,7 +17,7 @@ class PagesController extends Controller
     {
     return view('pages/howto');
     }
-    public function myrss(){
-        return view('myrss');
+    public function contact(){
+        return view('pages/contact');
     }
 }

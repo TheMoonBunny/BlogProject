@@ -18,9 +18,7 @@
     </p>
     <br>
     <br>
-    <h2>Contact me</h2>
-        <p>email:placeholder</p>
-        <p>socials:</p>
+   
     </div>
 </div>
 

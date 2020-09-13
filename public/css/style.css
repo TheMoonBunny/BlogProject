@@ -21,24 +21,20 @@ body {
   margin: 0px 300px 75px 300px;
   border-radius: 10px;
   padding-bottom: 50px;
+  
 }
-  .hot-topic{
-  display:grid;
-  }
 
-.box1 {
-  padding: 20px 10px;
-  margin: 0px 100px 75px 100px;
-  border-radius: 10px;
-  padding-bottom: 50px;
-  background:silver;
+.wrapper-text p {
+  margin:0px 0px 0px 20px;
 }
-.box2 {
+.wrapper-text h2{
+  margin:0px 0px 0px 20px;
+  
+}
 
-  width:100px;
-  height: 50px;
-  display: inline-block;
-  background:silver;
+.wrapper-text ul{
+  margin:0px 0px 0px 20px;
+
 }
 
 /* playing with preview and iframes */
@@ -54,7 +50,32 @@ body {
     column-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
+.wrapper-preview2 {
+  /* display: grid;
+  flex-direction: column;
+  flex: 0 0 100%;
+  max-width: 100%;
+    row-gap: 20px;
+    column-gap: 20px; */
 
+
+}
+
+.article-wrapper{
+  display:flex;
+  justify-content: space-between;
+  flex-direction: row;
+
+
+  max-width: 100%;
+
+}
+.wrapper-box-text{
+  background-color: #e4d9c0;
+  width:300px;
+  height:200px;
+  margin-right:250px;
+}
 .wrapper-box a{
 
   /* text-decoration: none; */
@@ -130,6 +151,7 @@ body {
     border: none;
     cursor: pointer;
   }
+
 /* footer */
 .footer-bg{
   background-color: rgb(14, 14, 14);
@@ -148,8 +170,6 @@ body {
     justify-content: space-between;
     padding: 20px 0px;
     
-    
-
 }
 .footer-rows {
   padding:0px 0px 0px 40px; /*the last 20px is to adjust footer*/
@@ -178,14 +198,16 @@ list-style-type: none;
 
 /*font-awesome-bootstrap fix for footer*/
 .s-m{
-    margin: auto;
+   right:0;
+   position:absolute;
     justify-content: space-around;
     display: flex;
     max-width: 175px; /*Change for the "inner-margin"*/
     font-size: 17.5px; /*change for smaller font icon as main logo-picture in the font awesome*/
-    flex-direction: column;
+    flex-direction: row;
   }
   .s-m a{
+  
     text-decoration: none;
     color: #f1f1f1;
     width: 45px;
