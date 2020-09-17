@@ -20,4 +20,11 @@ class PagesController extends Controller
     public function contact(){
         return view('pages/contact');
     }
+    //entries
+    public function bbcode(){
+    return view ('entries/bbcode');
+    }
+    public function githubgitbash(){
+        return view('entries/githubgitbash');
+    }
 }

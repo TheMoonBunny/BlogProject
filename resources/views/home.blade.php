@@ -8,20 +8,20 @@
             <h1><p>Hot topic</p></h1>
             <div class="wrapper-preview">
                 <div class="wrapper-box">
+                    <iframe class="blog-preview" img src="/img/articleimage/article1/gittutorial.jpg" rel="/about" src="/about" scrolling="no" height="200" width="300" title="Iframe Example"></iframe>
+                    <p><a href="/githubgitbash" target="myFrame" >Read more. </a></p>
+                </div>
+                <div class="wrapper-box">
             <iframe class="blog-preview" img src="/img/preview1.jpg" rel="/about" src="/about" scrolling="no" height="200" width="300" title="Iframe Example"></iframe>
-            <p><a href="/about" target="myFrame" >Read more. </a></p>
+            <p><a href="#" target="myFrame">Read more.</a></p>
                 </div>
                 <div class="wrapper-box">
             <iframe class="blog-preview" img src="/img/ifkedup.png" rel="/about" src="/about" scrolling="no" height="200" width="300" title="Iframe Example"></iframe>
-            <p><a href="/about" target="myFrame">Read more.</a></p>
+            <p><a href="#" target="myFrame">Read more.</a></p>
                 </div>
                 <div class="wrapper-box">
-            <iframe class="blog-preview" rel="/about" src="/about" scrolling="no" height="200" width="300" title="Iframe Example"></iframe>
-            <p><a href="/about" target="myFrame">Read more.</a></p>
-                </div>
-                <div class="wrapper-box">
-            <iframe class="blog-preview" rel="/about" src="/about" scrolling="no" height="200" width="300" title="Iframe Example"></iframe>
-            <p><a href="/about" target="myFrame">Read more.</a></p>
+            <iframe class="blog-preview" img src="/img/ifkedup.png" rel="/about" src="/about" scrolling="no" height="200" width="300" title="Iframe Example"></iframe>
+            <p><a href="#" target="myFrame">Read more.</a></p>
                 </div>
            
             </div>
@@ -30,11 +30,11 @@
         
         </div>
 </div>
+<br>
 <div class="wrapper">
  
     <div class="wrapper-text">
-        <h2>Hello welcome to my blog,</h2>
-        <p>HowToComputerLife</p>
+        <h2>Hello welcome HowToComputerLife,</h2>
 
         <p> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quam explicabo unde officiis ex nesciunt iusto quas fuga excepturi ab consequuntur, sint sunt at, eveniet magnam qui in beatae, nobis obcaecati.
         Beatae modi nulla quos, tempora nemo molestias sit et pariatur ut magnam, ipsa harum cum culpa molestiae dolore nobis laboriosam libero repellat inventore itaque dolorem similique iusto eos? Aspernatur, voluptatum.

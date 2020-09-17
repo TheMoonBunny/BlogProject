@@ -18,9 +18,10 @@ body {
   background-color: #f8f3e6;
   color:black;
   padding: 20px 10px;
-  margin: 0px 300px 75px 300px;
+  margin:auto;
   border-radius: 10px;
   padding-bottom: 50px;
+  max-width: 1300px;
   
 }
 
@@ -36,7 +37,13 @@ body {
   margin:0px 0px 0px 20px;
 
 }
+.wrapper-text ol{
+  margin:0px 0px 0px 20px;
 
+}
+.wrapper-text a {
+  color:blue;
+}
 /* playing with preview and iframes */
 .blog-preview {
   
@@ -50,31 +57,29 @@ body {
     column-gap: 20px;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
 }
-.wrapper-preview2 {
-  /* display: grid;
+/* .wrapper-preview2 {
+ display: grid;
   flex-direction: column;
   flex: 0 0 100%;
   max-width: 100%;
     row-gap: 20px;
-    column-gap: 20px; */
+    column-gap: 20px;
 
 
-}
+} */
 
 .article-wrapper{
   display:flex;
-  justify-content: space-between;
+  /* justify-content: space-between; */
   flex-direction: row;
-
-
   max-width: 100%;
 
 }
 .wrapper-box-text{
   background-color: #e4d9c0;
-  width:300px;
+  width:600px;
   height:200px;
-  margin-right:250px;
+  margin-right:0px;
 }
 .wrapper-box a{
 
@@ -94,9 +99,12 @@ body {
      background: linear-gradient(90deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,1) 50%, rgba(0,0,0,0.8) 100%);
     text-align: center;
     border-radius:10px; /*change when you got better border idea, image*/
-    position: relative;
+    /* sticky - require top:0; */
+    position: sticky;
+    top:0;
     padding: 20px 10px;
     margin: 0px 300px 0px 300px;
+   
 
 
  }

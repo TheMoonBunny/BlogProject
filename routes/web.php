@@ -19,3 +19,6 @@ Route::get('/about', 'PAGESCONTROLLER@about');
 Route::get('/howto', 'PAGESCONTROLLER@howto');
 Route::get('/contact', 'PAGESCONTROLLER@contact');
 //Route::feeds('/voorbeeld', 'PAGESCONTROLLER@voorbeeld');
+//entries pages downbelow
+Route::get('/bbcode', 'PAGESCONTROLLER@bbcode');
+Route::get('/githubgitbash', 'PAGESCONTROLLER@githubgitbash');

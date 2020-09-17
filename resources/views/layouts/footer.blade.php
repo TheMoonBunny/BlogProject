@@ -44,12 +44,7 @@
 &copy; Copyright 2020, Alex blog post.
 <br>
 <br>
-<div class= "share-buttons"> 
-  <!-- AddToAny BEGIN -->
-  <a class="a2a_dd" href="https://www.addtoany.com/share"><img src="https://static.addtoany.com/buttons/share_save_171_16.png" width="171" height="16" border="0" alt="Share"></a>
-  <script async src="https://static.addtoany.com/menu/page.js"></script>
-  <!-- AddToAny END -->
-  </div>
+
 </div>
     <div class="footer-rows2">
       <h1>HowToComputerLife</h1>

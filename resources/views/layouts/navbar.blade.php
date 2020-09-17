@@ -5,7 +5,7 @@
   
   <a class="fa fa-instagram" href="https://www.instagram.com/alex.atacho/"></a>
   <a class="fa fa-youtube" href="https://www.youtube.com/channel/UC6JrOKgoAPp2OMb74-ZcwZg?"></a>
-  <a class="fa fa-github" href="https://github.com/TheMoonBunny?tab=repositories"></a>   
+  <a class="fa fa-github" href="https://github.com/alejandroatacho?tab=repositories"></a>   
   <a class="fa fa-rss" href="/voorbeeld"></a>   
 
 </a>
