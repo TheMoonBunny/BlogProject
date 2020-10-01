@@ -14,21 +14,24 @@
 <div class="navbar">
     <nav>
     <ul>
-      
           <li><a href="/">Home</a></li>
-      
           <li><a href="/howto">Articles</a></li>
-         
+         <li><div class="dropdown">
+            <a href="#">Category <i class="fa fa-caret-down"></i></a>
+              <div class="dropdown-content">
+              <a href="#">PHP</a>
+              <a href="#">SQL</a>
+              <a href="#">HTML</a>
+              </div>
+          </div></li>
           <li><a href="/about">About me</a></li>
-          <li><a href="/contact">Contact</a></li>
           {{-- search function --}}
-          <div class="search-container">
-            <form action="#">  {{--Find a way to make search function work--}}
+          {{-- <div class="search-container">
+            <form action="#"> 
               <input type="text" placeholder="Search..." name="search">
               <button type="submit"><i class="fa fa-search"></i></button>
             </form>
-          </div>
-
+          </div> --}}
         </ul>
 
       </nav>

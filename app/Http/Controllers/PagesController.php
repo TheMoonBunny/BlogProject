@@ -22,9 +22,16 @@ class PagesController extends Controller
     }
     //entries
     public function bbcode(){
-    return view ('entries/bbcode');
+    return view ('pages/entries/bbcode');
     }
     public function githubgitbash(){
-        return view('entries/githubgitbash');
+        return view('pages/entries/githubgitbash');
     }
+    public function databasetut(){
+        return view('pages/entries/databasetut');
+    }
+    public function databasetut2(){
+        return view('pages/entries/databasetut2');
+    }
+    
 }

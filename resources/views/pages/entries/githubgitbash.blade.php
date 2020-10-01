@@ -54,7 +54,7 @@
                 <br>
                 By using the following line of codes
                 <br>
-                
+                <pre><code>
                 $ git init
                 <br>
                 $ git remote add origin git@github.com:username/new_repo
@@ -62,14 +62,14 @@
                 on the "$git remote add origin" you have to add your http url for the repository.
                 <br>
                 $ git push -u origin master
-                
+            </code></pre>
                     <br>
                     <br>
                 <img src="img/articleimage/article1/tutorial5.jpg">
                 <br>
                 <br>
                 <h3>congratulations you should have your first project uploaded in your repository!</h3>
-            </p>
+            </pre>
             <br>
             <p>
                 If you get the following error: 
@@ -79,6 +79,7 @@
                 <br>
                 do the following in the Git Bash terminal.
                 <br>
+                <pre><code>
                 $touch initial
                 <br>
                 $git add initial
@@ -86,6 +87,7 @@
                 $git commit -m "initial commit"
                 <br>
                 $git push -u origin master
+            </code></pre>
                 <br>
                 <br>
                 <img src="img/articleimage/article1/tutorial7.jpg">
@@ -99,11 +101,13 @@
             <br>
     
             <br>
+            <pre><code>
             $git add -A
             <br>
            $git commit -m "hi"
             <br>
             $git push
+        </code></pre>
             <br>
 
                 <img src="img/articleimage/article1/tutorial8.jpg">
@@ -121,22 +125,24 @@
             <br>
             If you wanna update your github with the latest changes just do the following again:
             <br>
+            <pre><code>
             $git add -A
             <br>
            $git commit -m "updated files"
             <br>
             $git push
+        </code></pre>
             <br>
             <br>
             Hope this article helped you.
-        </p>
+        </pre>
         <br>
         <br>
-            <div class= "share-buttons"> 
-                <!-- AddToAny BEGIN -->
-                <a class="a2a_dd" href="https://www.addtoany.com/share"><img src="https://static.addtoany.com/buttons/share_save_171_16.png" width="171" height="16" border="0" alt="Share"></a>
-                <script async src="https://static.addtoany.com/menu/page.js"></script>
-                <!-- AddToAny END -->
-                </div>
+        <div class= "share-buttons"> 
+            <!-- AddToAny BEGIN -->
+            <a class="a2a_dd" href="https://www.addtoany.com/share"><img src="https://static.addtoany.com/buttons/share_save_171_16.png" width="171" height="16" border="0" alt="Share"></a>
+            <script async src="https://static.addtoany.com/menu/page.js"></script>
+            <!-- AddToAny END -->
+            </div>
     </div>    
 @endsection

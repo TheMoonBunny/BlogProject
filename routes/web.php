@@ -22,3 +22,5 @@ Route::get('/contact', 'PAGESCONTROLLER@contact');
 //entries pages downbelow
 Route::get('/bbcode', 'PAGESCONTROLLER@bbcode');
 Route::get('/githubgitbash', 'PAGESCONTROLLER@githubgitbash');
+Route::get('/databasetut', 'PAGESCONTROLLER@databasetut');
+Route::get('/databasetut2', 'PAGESCONTROLLER@databasetut2');

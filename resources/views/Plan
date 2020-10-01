@@ -5,8 +5,10 @@ Development (own skillset)
 https://howtocomputerlife.000webhostapp.com/
 
 blog website 9/30/2020 deadline suppose.
-https://www.ryrob.com/blog-layout/
 
+Reference:
+https://www.ryrob.com/blog-layout/
+https://html.com/
 
 
 to do list:
@@ -28,6 +30,11 @@ Concepts:
 make articles page display column and divide them with <hr> to make it look better 
 and use the current article for "hot topic" on home page.
 
+idea change:
+ images:
+    width 100%;
+    height auto:auto;
+fonts: plexness, robotica
 
 must have:
 share post/entries
