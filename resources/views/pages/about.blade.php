@@ -17,6 +17,15 @@
         </ul>
     </p>
     <br>
+    <h2>
+            <h2>Contact me</h2>
+            <p>email:placeholder</p>
+            <p>socials:</p>
+            <p>github:</p>
+            <p>discord:</p>
+            <p>instagram:</p>
+    </h2>
+    <br>
     <br>
    
     </div>

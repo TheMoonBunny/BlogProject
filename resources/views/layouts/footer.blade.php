@@ -8,7 +8,6 @@
         <ul>
           <li><a href="#">FAQ</a></li>
           <li><a href="#">Rules</a></li>
-          <li><a href="#">How to submit blog</a></li>
           <li><a href="/about">About</a></li>
         </ul>
       </div>

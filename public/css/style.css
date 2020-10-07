@@ -15,6 +15,9 @@
 img{
   margin:0px 0px 0px 20px;
 }
+.titles {
+  font-size:48px;
+}
 body {
   background-color: grey;
 }
@@ -27,6 +30,18 @@ body {
   text-align: justify;
   text-align-last: left;
   background-color: #f8f3e6;
+  color:black;
+  padding: 20px 10px;
+  margin:auto;
+  border-radius: 10px;
+  padding-bottom: 50px;
+  max-width: 1300px;
+  
+}
+.wrapper-text-inner{
+  text-align: justify;
+  text-align-last: left;
+  background-color: #f8ebca;
   color:black;
   padding: 20px 10px;
   margin:auto;

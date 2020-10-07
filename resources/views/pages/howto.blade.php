@@ -2,8 +2,9 @@
 @section ('content')
 
 <div class= "wrapper">
-<div class="wrapper-text">
     
+<div class="wrapper-text">
+    <h1 class="titles">Latest Articles</h1>
     <hr>
     <div class="article-wrapper">
    

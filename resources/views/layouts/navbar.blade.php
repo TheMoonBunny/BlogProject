@@ -19,9 +19,10 @@
          <li><div class="dropdown">
             <a href="#">Category <i class="fa fa-caret-down"></i></a>
               <div class="dropdown-content">
-              <a href="#">PHP</a>
+              <a href="#">PHP & Laravel</a>
+              <a href="#">Javascript</a>
               <a href="#">SQL</a>
-              <a href="#">HTML</a>
+              <a href="#">HTML & CSS</a>
               </div>
           </div></li>
           <li><a href="/about">About me</a></li>

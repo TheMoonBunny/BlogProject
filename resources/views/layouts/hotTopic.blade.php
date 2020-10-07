@@ -2,7 +2,7 @@
        
     <div class= "wrapper">
         <div class="wrapper-text">
-            <h1><p>Hot topics</p></h1>
+            <p><h1 class= "titles">Hot topics</h1></p>
             <br>
             <div class="wrapper-preview">
                 <div class="wrapper-box">
